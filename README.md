@@ -1,6 +1,8 @@
 # json-job
 
-A example job post in json format.
+The open source initiative to create a JSON-based standard for job posts.
+
+I welcome any contributions!
 
 ```
 {

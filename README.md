@@ -1,11 +1,11 @@
 # json-job
 
-The open source initiative to create a JSON-based standard for job posts.
+The open source initiative to create a JSON-based standard for job posts. Inspired by jsonresume.org
 
 ### TODO
-- [] From that converts to json
-- [] json-schema
-- [] heroku app with validation and example job API
+- [ ] From that converts to json
+- [ ] json-schema
+- [ ] heroku app with validation and example job API
 
 ### Install
 

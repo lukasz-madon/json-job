@@ -17,7 +17,6 @@ app.get('/api/jobs', function(req, res) {
 
 app.post('/api/validate', function(req, res) {
   validator.validate(jsonJob, schema, function(err, valid) {
-    console.log(arguments)
     res.json({errros: err, valid: valid});
   })
 });

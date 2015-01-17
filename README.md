@@ -2,10 +2,26 @@
 
 The open source initiative to create a JSON-based standard for job posts. Inspired by jsonresume.org
 
+## Json and schema are in alpha stage. Will change for sure.
+
+### Validation and API
+
+To validate json send the file to the server
+```
+curl -H "Content-Type: application/json" --data @job.json https://jsonjob.herokuapp.com/api/validate
+```
+The response should be
+```
+{"errros":null,"valid":{"valid":true,"errors":[],"warnings":[]}}
+```
+Server also replay with example json
+
+https://jsonjob.herokuapp.com/api/jobs
+
 ### TODO
 - [ ] From that converts to json
 - [ ] json-schema
-- [ ] heroku app with validation and example job API
+- [x] heroku app with validation and example job API
 
 ### Install
 

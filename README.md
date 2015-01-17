@@ -2,6 +2,11 @@
 
 The open source initiative to create a JSON-based standard for job posts.
 
+### TODO
+- [] From that converts to json
+- [] json-schema
+- [] heroku app with validation and example job API
+
 I welcome any contributions!
 
 ```

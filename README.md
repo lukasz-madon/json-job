@@ -7,6 +7,18 @@ The open source initiative to create a JSON-based standard for job posts.
 - [] json-schema
 - [] heroku app with validation and example job API
 
+### Install
+
+```
+git clone git@github.com:lukasz-madon/json-job.git
+cd json-job
+npm install
+```
+
+### Run
+
+```foreman start```
+
 I welcome any contributions!
 
 ```
@@ -25,7 +37,7 @@ I welcome any contributions!
       "type": "full-time",
       "posted": "20-01-2015",
       "location": "US",
-      "skills": ["Python", "Javascript" ,"Redis"],
+      "skills": ["Python", "Javascript", "Redis"],
       "salary-range": {
         "from": 90000,
         "to": 100000,
@@ -46,7 +58,7 @@ I welcome any contributions!
       "type": "full-time",
       "posted": "20-01-2015",
       "location": "US",
-      "skills": ["Javascript", "Angular.js" ,"CSS"],
+      "skills": ["Javascript", "Angular.js", "CSS"],
       "salary-range": {
         "from": 90000,
         "to": 100000,
@@ -67,7 +79,7 @@ I welcome any contributions!
       "type": "full-time",
       "posted": "20-01-2015",
       "location": "US",
-      "skills": ["HTML", "CSS" ,"Photoshop"],
+      "skills": ["HTML", "CSS", "Photoshop"],
       "salary-range": {
         "from": 90000,
         "to": 100000,

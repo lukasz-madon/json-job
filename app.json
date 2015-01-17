@@ -1,0 +1,7 @@
+{
+  "name": "Json Job",
+  "description": "Json schema validation and api example",
+  "repository": "",
+  "logo": "",
+  "keywords": ["json", "schema", "node", "express", "static"]
+}

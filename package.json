@@ -1,0 +1,27 @@
+{
+  "name": "json-job-schema-validator",
+  "version": "0.1.2",
+  "description": "Json schema validator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "z-schema": "~2.4.8"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukasz-madon/json-job"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

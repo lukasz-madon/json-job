@@ -2,7 +2,7 @@
 
 The open source initiative to create a JSON-based standard for job posts. Inspired by jsonresume.org
 
-## Json and schema are in alpha stage. Subject to change.
+### Json and schema are in alpha stage. Subject to change.
 
 ### Would you like an API with your job posts?
 
@@ -16,7 +16,7 @@ Here is an example:
 https://jsonjob.herokuapp.com/api/jobs
 Server responses with sample jobs
 
-You may want to fork the repository first and change job.json there.
+Alternatively, you can fork the repository first, change job.json there, and then deploy.
 
 ### Validation
 
@@ -31,7 +31,7 @@ The response should be
 
 ### TODO
 - [ ] From that converts to json
-- [ ] json-schema
+- [x] json-schema
 - [x] heroku app with validation and example job API
 
 ### Install

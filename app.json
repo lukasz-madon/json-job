@@ -1,7 +1,7 @@
 {
   "name": "Json Job",
   "description": "Json schema validation and api example",
-  "repository": "",
-  "logo": "",
+  "repository": "https://github.com/lukasz-madon/json-job",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["json", "schema", "node", "express", "static"]
 }

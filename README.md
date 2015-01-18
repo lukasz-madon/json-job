@@ -10,7 +10,7 @@ It's quite simple:
 
 1. Deploy heroku app [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 1. Clone heroku repository and change job.json
-1. Do your change and `git push heroku master`
+1. Commit the change and `git push heroku master`
 
 Here is an example:
 https://jsonjob.herokuapp.com/api/jobs

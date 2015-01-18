@@ -18,6 +18,18 @@ Server responses with sample jobs
 
 Alternatively, you can fork the repository first, change job.json there, and then deploy.
 
+### Don't want to or can't build API?
+
+just add a var to career page
+
+```
+<script type="text/javascript">
+  var JSON_JOBS = {
+  	company: ...
+  }; 
+</script>
+```
+
 ### Validation
 
 To validate json send the file to the server

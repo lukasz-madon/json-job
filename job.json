@@ -13,7 +13,7 @@
       "type": "full-time",
       "posted": "20-01-2015",
       "location": "US",
-      "skills": ["Python", "Javascript" ,"Redis"],
+      "skills": ["Python", "Javascript", "Redis"],
       "salary-range": {
         "from": 90000,
         "to": 100000,
@@ -34,7 +34,7 @@
       "type": "full-time",
       "posted": "20-01-2015",
       "location": "US",
-      "skills": ["Javascript", "Angular.js" ,"CSS"],
+      "skills": ["Javascript", "Angular.js", "CSS"],
       "salary-range": {
         "from": 90000,
         "to": 100000,
@@ -55,7 +55,7 @@
       "type": "full-time",
       "posted": "20-01-2015",
       "location": "US",
-      "skills": ["HTML", "CSS" ,"Photoshop"],
+      "skills": ["HTML", "CSS", "Photoshop"],
       "salary-range": {
         "from": 90000,
         "to": 100000,

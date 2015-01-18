@@ -1,10 +1,14 @@
 var express = require('express');
-var validator = require("z-schema");
+var Zschema = require("z-schema");
 var jsonJob = require('./job');
-var schema = require('./schema')
+var schema = require('./schema');
+
+var validator = new Zschema({
+    breakOnFirstError: false,
+    strictMode: true
+});
 
 var app = express();
-
 app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(req, res) {
@@ -17,7 +21,7 @@ app.get('/api/jobs', function(req, res) {
 
 app.post('/api/validate', function(req, res) {
   validator.validate(jsonJob, schema, function(err, valid) {
-    res.json({errros: err, valid: valid});
+    res.json({errros: err, result: valid});
   })
 });
 

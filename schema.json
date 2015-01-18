@@ -1,5 +1,87 @@
 {
-	"$schema": "http://json-schema.org/draft-04/schema#",
-	"title": "Job Post Schema",
-	"type": "object"
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Job Post Schema",
+  "type": "object",
+  "required": ["company", "url", "remote-friendly", "market", "size", "jobs"],
+  "properties": {
+    "company": {
+      "type": "string",
+      "description": "e.g. Google or Pied Piper"
+    },
+    "url": {
+      "type": "string",
+      "description": "URL (as per RFC 3986) to company website, e.g. http://piedpiper.com/",
+      "format": "uri"
+    },
+    "remote-friendly": {
+      "type": "boolean",
+      "description": "If company has a remote DNA. Company embrace remote work and this is ongoing practice"
+    },
+    "market": {
+      "type": "string",
+      "description": "What is the company target market e.g. SaaS, E-commerce"
+    },
+    "size": {
+      "type": "string",
+      "description": "Size of the company. Possible options: 1-10, 10-50, 50-200, 200-1000, 1000-5000, 5000+"
+    },
+    "jobs": {
+      "type": "array",
+      "description": "list of jobs",
+      "items": {
+        "type": "object",
+        "properties": {
+          "position": {
+            "type": "string",
+            "description": "e.g. Software Engineer or Marketing"
+          },
+          "title": {
+            "type": "string",
+            "description": "e.g. Backend Developer or UX Designer"
+          },
+          "description": {
+            "type": "string",
+            "description": "You will help us build API for our compression infrastructure."
+          },
+          "url": {
+            "type": "string",
+            "description": "URL (as per RFC 3986) to company website, e.g. http://piedpiper.com/jobs/frontend-developer",
+            "format": "uri"         
+          },
+          "type": {
+            "type": "string",
+            "description": "Full Time, Contract, Cofounder, Internship"
+          },
+          "posted": {
+            "type": "string",
+            "description": "Date in format 'day month year' e.g 20-01-2015"
+          },
+          "location": {
+            "type": "string",
+            "description": "If empty, location is whole world(remote job), if region is US, Europe etc. it means the remote job is restricted to particular area. Exact location indicates that job is not remote(possible Working From Home)."
+          },
+          "skills": {
+            "type": "array",
+            "description": "list of skills e.g. ['Javascript', 'Angular.js', 'CSS']"
+          },
+          "salary-range": {
+            "type": "object",
+            "description": "Salary range in given currency"
+          },
+          "equity": {
+            "type": "object",
+            "description": "Stock/Options grant"
+          },
+          "perks": {
+            "type": "array",
+            "description": "list of perks e.g. ['free food', 'gym membership']"
+          },
+          "apply": {
+            "type": "string",
+            "description": "How to apply? url or email"
+          }
+        }
+      }
+    }
+  }
 }

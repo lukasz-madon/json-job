@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Job Post Schema",
   "type": "object",
-  "required": ["company", "url", "remote-friendly", "market", "size", "jobs"],
+  "required": ["company", "url", "remoteFriendly", "market", "size", "jobs"],
   "properties": {
     "company": {
       "type": "string",
@@ -13,7 +13,7 @@
       "description": "URL (as per RFC 3986) to company website, e.g. http://piedpiper.com/",
       "format": "uri"
     },
-    "remote-friendly": {
+    "remoteFriendly": {
       "type": "boolean",
       "description": "If company has a remote DNA. Company embrace remote work and this is ongoing practice"
     },

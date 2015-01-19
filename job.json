@@ -1,7 +1,7 @@
 {
   "company": "Pied Piper",
   "url": "http://piedpiper.com/",
-  "remote-friendly": true,
+  "remoteFriendly": true,
   "market": "SaaS",
   "size": "10-50",
   "jobs": [
@@ -14,7 +14,7 @@
       "posted": "20-01-2015",
       "location": "US",
       "skills": ["Python", "Javascript", "Redis"],
-      "salary-range": {
+      "salaryRange": {
         "from": 90000,
         "to": 100000,
         "currency": "$"
@@ -35,7 +35,7 @@
       "posted": "20-01-2015",
       "location": "US",
       "skills": ["Javascript", "Angular.js", "CSS"],
-      "salary-range": {
+      "salaryRange": {
         "from": 90000,
         "to": 100000,
         "currency": "$"
@@ -56,7 +56,7 @@
       "posted": "20-01-2015",
       "location": "US",
       "skills": ["HTML", "CSS", "Photoshop"],
-      "salary-range": {
+      "salaryRange": {
         "from": 90000,
         "to": 100000,
         "currency": "$"

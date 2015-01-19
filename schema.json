@@ -66,11 +66,11 @@
           },
           "salaryRange": {
             "type": "object",
-            "description": "Salary range in given currency(inclusive)"
+            "description": "Salary range in ISO_4217 format(inclusive)"
           },
           "equity": {
             "type": "object",
-            "description": "Stock/Options grant range(inclusive)"
+            "description": "Stock/Options grant range(inclusive) from 0.0 to 1.0"
           },
           "perks": {
             "type": "array",

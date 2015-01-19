@@ -38,7 +38,7 @@ curl -H "Content-Type: application/json" --data @job.json https://jsonjob.heroku
 ```
 The response should be
 ```
-{"errros":null,"result":{"valid":true,"errors":[],"warnings":[]}}
+{"erros":null,"result":{"valid":true,"errors":[],"warnings":[]}}
 ```
 
 ### TODO
@@ -64,7 +64,7 @@ I welcome any contributions!
 {
   "company": "Pied Piper",
   "url": "http://piedpiper.com/",
-  "remote-friendly": true,
+  "remoteFriendly": true,
   "market": "SaaS",
   "size": "10-50",
   "jobs": [
@@ -77,10 +77,10 @@ I welcome any contributions!
       "posted": "20-01-2015",
       "location": "US",
       "skills": ["Python", "Javascript", "Redis"],
-      "salary-range": {
+      "salaryRange": {
         "from": 90000,
         "to": 100000,
-        "currency": "$"
+        "currency": "USD"
       },
       "equity": {
         "from": 0.005,
@@ -98,10 +98,10 @@ I welcome any contributions!
       "posted": "20-01-2015",
       "location": "US",
       "skills": ["Javascript", "Angular.js", "CSS"],
-      "salary-range": {
+      "salaryRange": {
         "from": 90000,
         "to": 100000,
-        "currency": "$"
+        "currency": "USD"
       },
       "equity": {
         "from": 0.005,
@@ -119,10 +119,10 @@ I welcome any contributions!
       "posted": "20-01-2015",
       "location": "US",
       "skills": ["HTML", "CSS", "Photoshop"],
-      "salary-range": {
+      "salaryRange": {
         "from": 90000,
         "to": 100000,
-        "currency": "$"
+        "currency": "USD"
       },
       "equity": {
         "from": 0.005,
@@ -133,4 +133,5 @@ I welcome any contributions!
     }
   ]
 }
+
 ```

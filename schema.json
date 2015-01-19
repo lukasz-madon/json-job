@@ -23,7 +23,7 @@
     },
     "size": {
       "type": "string",
-      "description": "Size of the company. Possible options: 1-10, 10-50, 50-200, 200-1000, 1000-5000, 5000+"
+      "description": "Size of the company. Possible options(inclusive): 1-10, 10-50, 50-200, 200-1000, 1000-5000, 5000+"
     },
     "jobs": {
       "type": "array",
@@ -64,13 +64,13 @@
             "type": "array",
             "description": "list of skills e.g. ['Javascript', 'Angular.js', 'CSS']"
           },
-          "salary-range": {
+          "salaryRange": {
             "type": "object",
-            "description": "Salary range in given currency"
+            "description": "Salary range in given currency(inclusive)"
           },
           "equity": {
             "type": "object",
-            "description": "Stock/Options grant"
+            "description": "Stock/Options grant range(inclusive)"
           },
           "perks": {
             "type": "array",

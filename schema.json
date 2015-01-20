@@ -54,7 +54,8 @@
           },
           "posted": {
             "type": "string",
-            "description": "Date in format 'day month year' e.g 20-01-2015"
+            "description": "ISO 8601 date standard e.g. 2015-01-30",
+            "format": "date"
           },
           "location": {
             "type": "string",
